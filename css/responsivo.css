@@ -1,0 +1,110 @@
+
+@media (max-width: 1680px) {
+	.instagram iframe {height: 210px;}
+}
+
+
+@media (max-width: 1600px) {
+	.instagram iframe {height: 200px;}
+}
+
+
+@media (max-width: 1440px) {
+	.instagram iframe {height: 170px;}
+}
+
+@media (max-width: 1400px) {
+
+}
+
+
+@media (max-width: 1366px) {
+
+
+}
+
+
+@media (max-width: 1280px) {
+	.content {max-width: 95%;}
+	
+	.instagram iframe {height: 150px;}
+}
+
+@media (max-width: 1152px) {
+	.instagram iframe {height: 140px;}
+}
+
+@media (max-width: 1024px) {
+	.instagram iframe {height: 120px;}
+}
+
+
+@media (max-width: 950px) {
+	.conteudo .esquerda {width: 100%; margin: 0 0 30px 0;}
+	.conteudo .direita {width: 100%; margin: 0 0 30px 0;}
+	.conteudo .maior {width: 100%; margin: 0 0 30px 0; text-align: center;}
+	.conteudo .menor {width: 100%; margin: 0 0 30px 0; text-align: center;}
+	
+	.conteudo .direita img {width: 60%; margin: 0 20%;}
+	.conteudo .esquerda img {width: 60%; margin: 0 20%;}
+	
+	.conteudo h1 {text-align: center;}
+	
+	footer .logo {display: none;}
+	footer .quadro li {width: 100%; float: none; text-align: center; }
+	footer .lista i {float: none; height: 30px;}
+	
+	.filhotes .filhote {width: 45%;}
+	
+	.conteudo .contatos i {float: none;}
+}
+
+@media (max-width: 800px) {
+	.instagram iframe {height: 100px;}
+}
+
+@media (max-width: 768px) {
+	header .logo {width: 180px; height: 160px; float: none; margin: auto;}
+	header .fone {display: none;}
+	
+	.navegacao ul {display: none;}
+	
+}
+
+@media (max-width: 667px) {
+	.instagram iframe {height: 80px;}
+	
+	.filhotes .filhote {width: 95%;}
+	
+	.conteudo .fotos {column-count: 2;}
+}
+
+@media (max-width: 600px) {
+
+}
+
+@media (max-width: 568px) {
+	.depoimento .imagem {width: 100%; float: none; margin: 0 auto 30px auto;}
+	.depoimento .texto {width: 100%; float: none;}
+	
+	.instagram {display: none;}
+	
+	.navegacao h1 {font-size: 1em;}
+}
+
+@media (max-width: 480px) {
+
+}
+
+@media (max-width: 414px) {
+
+}
+
+@media (max-width: 384px) {
+	.conteudo .fotos {column-count: 1;}
+}
+
+@media (max-width: 375px) {
+
+}
+/*********************************************************/

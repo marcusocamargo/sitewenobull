@@ -1,0 +1,121 @@
+html, body {width:100%; height:100%; font-family: 'Montserrat', sans-serif;}
+/*********************************************************/
+/*	TOPO												 */
+/*********************************************************/
+header {width: 100%; height: auto; padding: 10px 0 5px 0; background-color: #0c0808; z-index: 9999; position: relative; display: table;}
+header .logo {width: 180px; height: 160px; float: left; background-image: url(../images/logo.png); background-repeat: no-repeat; background-size: 100%;}
+
+header .fone {float: right; color: #fff; font-weight: 600; padding-bottom: 30px;letter-spacing: 2px;}
+header .fone span {color: #F6AB4A;}
+header .fone i {padding: 0 10px;}
+
+header .menu {float: right; padding-top: 20px;}
+
+footer {width: 100%; height: auto; display: table; padding-top: 60px; background-color: #0a0707;}
+footer .logo {width: 180px; height: 160px; margin: auto; background-image: url(../imagens/favicon.png); background-repeat: no-repeat; background-size: 100%;}
+
+footer .quadro li {width: 33.33%; float: left; }
+footer .lista li {width: 100%; padding-bottom: 10px; color: #fff; font-size: 0.8em; font-weight: 300; line-height: 20px;}
+footer .lista i {color: #f3f64a; padding-right: 10px;float: left; height: 30px;}
+
+footer h2 {font-size: 1.2em; color: #f3f64a; padding-bottom: 30px;}
+
+footer .fim {width: 100%; height: auto; display: table; padding: 20px 0; background-color: #0a0707; color: #fff;}
+footer .fim p {font-size: 0.8em; float: left;}
+footer .fim a {color: #fff;}
+footer .fim a:hover {color: #f3f64a;}
+footer .fim ul {float: right;}
+footer .fim li {float: left; padding: 0 10px;}
+/*********************************************************/
+/*	CONTEUDO											 */
+/*********************************************************/
+.conteudo {padding: 80px 0; height: auto; width: 100%; }
+
+.conteudo h1 {text-transform: uppercase; color: #4C4C4C; font-size: 2em; font-weight: 600; padding-bottom: 60px;}
+.conteudo h1 span {color: #f3f64a;}
+.conteudo h2 {font-size: 1.2em; font-weight: 400; padding-bottom: 20px; height: 60px;}
+.conteudo h3 {color: #f3f64a; font-size: 1.2em; font-weight: 600; padding-bottom: 10px;}
+.conteudo p {line-height: 30px; color: #4C4C4C;}
+
+.conteudo .esquerda {width: 45%; margin-right: 3%; display: inline-block; vertical-align: top;}
+.conteudo .direita {width: 45%; margin-left: 3%; display: inline-block; vertical-align: top;}
+.conteudo .maior {width: 65%; margin-right: 3%; display: inline-block; vertical-align: top;}
+.conteudo .menor {width: 30%;  display: inline-block; vertical-align: top;}
+
+.conteudo .imput {width: 80%; padding: 20px; border: 1px solid #E6E1CB; border-radius: 20px; font-family: 'Montserrat', sans-serif; font-size: 0.9em; margin-bottom: 20px;}
+.conteudo .imputtext {width: 80%; height: 160px; padding: 20px; border: 1px solid #E6E1CB; border-radius: 20px; font-family: 'Montserrat', sans-serif; font-size: 0.9em; margin-bottom: 20px;}
+
+.conteudo .contatos li {width: 100%; padding-bottom: 25px; font-size: 1em; font-weight: 300; line-height: 20px;}
+.conteudo .contatos i {color: #f3f64a; padding-right: 10px;float: left; height: 30px;}
+
+.conteudo .fotos {column-count: 3;}
+.conteudo .foto {margin-bottom: 5px; -webkit-filter:grayscale(100%);}
+.conteudo .foto:hover {-webkit-filter:grayscale(0%); transition: 1s;}
+
+.filhotes {justify-content: center; flex-wrap: wrap; display: table; text-align: center;}
+.filhotes .filhote {width: 29%; margin: 0 2% 60px 2%; background-color: #F7F3E7; display: inline-block; padding: 20px 30px; text-align: center; color: #362526; min-height: 550px; min-width: 29%;}
+.filhotes .filhote:hover {background-color: #140e0f; color: #fff !important;}
+.filhotes .filhote:hover p {color: #fff;}
+.filhotes .filhote:hover .imagem {border: 5px solid #fff;}
+.filhotes h2 {font-weight: 700;}
+.filhotes p {font-size: 0.8em; text-align: left; line-height: 22px;}
+.filhotes .imagem {border-radius: 100%; overflow: hidden; width: 200px; height: 200px; background-repeat: no-repeat; background-size: cover; margin: 0 auto 20px auto; border: 5px solid #F7F3E7;}
+/*********************************************************/
+/*	DETALHES											 */
+/*********************************************************/
+.bg-1 {background-color: #FAFAFA; background-size: 100% 100%; }
+
+.botao {padding: 15px 30px; background-color: #f3f64a; color: #fff; font-weight: 600; border-radius: 50px; display: inline-block; cursor: pointer;}
+.botao:hover {background-color: #0f0b0b;}
+
+.botao-a {padding: 15px 30px; background-color: #f3f64a; color: #fff; font-weight: 600; border-radius: 50px; display: inline-block; cursor: pointer;}
+.botao-a:hover {background-color: #fff; color: #f3f64a !important;}
+
+.table {display: table;}
+.txt-r {text-align: right;}
+
+.navegacao {width: 100%; height: auto; display: table; padding: 30px 0; background-color: #F7F3E7; color: #362526;}
+.navegacao h1 {float: left; font-weight: 500; text-transform: uppercase; letter-spacing: 2px;}
+.navegacao ul {float: right;}
+.navegacao  li {float: left; font-size: 0.8em; padding: 15px 5px 0 0;}
+
+.mapa iframe {width: 100%; height: 350px;}
+
+.detalhes .capa {width: 400px; height: 400px; background-repeat: no-repeat; background-size: cover; background-position: center center; margin: auto; border-radius: 50%; overflow: hidden;}
+.detalhes .imgs {width: 100%; margin: 30px 0; text-align: center;}
+.detalhes .imgs li {display: inline-block; width: 80px; height: 80px; border-radius: 50%; overflow: hidden; background-repeat: no-repeat; background-size: cover; margin: 0 2% 20px 2%;}
+
+.detalhes h2 {font-weight: 700; font-size: 1.4em;}
+
+.video {position: relative; padding-bottom: 50%;}
+.video iframe {position: absolute; width: 100%; height: 100%;}
+/*********************************************************/
+/*	HOME										 			*/
+/*********************************************************/
+.chamadas {width: 100%; height: auto; padding: 80px 0; background-image: url(../imagens/banner.jpg); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; color: #fff;}
+.chamadas .quadro {width: 90%; margin: auto;}
+.chamadas .icon {width: 20%; float: left;}
+.chamadas .texto {width: 75%; float: right;}
+
+.chamadas h2 {font-size: 1.2em; padding-bottom: 20px; font-weight: 500;}
+.chamadas p {font-size: 0.8em; font-weight: 300; line-height: 20px;}
+
+.depoimento {width: 80%; background-color: #F7F3E7; padding: 40px; border-bottom: 10px solid #382829; display: table; margin: auto;}
+.depoimento .imagem {width: 30%; float: left; border-radius: 50%; overflow: hidden;}
+.depoimento .texto {width: 60%; float: right;}
+.depoimento p {font-size: 1em; font-weight: 300; line-height: 25px; color: #787878; font-style: italic;}
+.depoimento span {font-size: 1.4em; font-weight: 600; font-style: normal;}
+
+.instagram iframe {width: 100%; height: 220px;}
+
+.parceiros {width: 100%; height: auto; padding: 30px 0 80px 0; border-top: 20px solid #FAFAFA;}
+.parceiros .quadro {width: 80%; margin: auto;}
+.parceiros h1 {text-transform: uppercase; color: #4C4C4C; font-size: 1.4em; font-weight: 600; padding-bottom: 40px;}
+
+
+
+
+
+
+
+
