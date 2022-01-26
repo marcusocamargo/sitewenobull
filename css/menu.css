@@ -83,7 +83,7 @@
   	-webkit-transition: opacity 300ms;
   	-moz-transition: opacity 300ms;
   	transition: opacity 300ms;
-  	background: rgba(0,0,0, .5);
+  	background: rgba(40,40,40, .5);
   	visibility: hidden;
   	position: fixed;
   	opacity: 0;
@@ -179,7 +179,7 @@
 	  font-family: 'Montserrat', sans-serif;
 	  text-transform: uppercase;
 	  color: #fff;
-	  background-color: #130e0e;
+	  background-color: #F6AB4A;
 	  border-right: 1px solid #130e0e;
   }
 	

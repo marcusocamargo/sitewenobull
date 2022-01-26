@@ -2,8 +2,8 @@ html, body {width:100%; height:100%; font-family: 'Montserrat', sans-serif;}
 /*********************************************************/
 /*	TOPO												 */
 /*********************************************************/
-header {width: 100%; height: auto; padding: 10px 0 5px 0; background-color: #0c0808; z-index: 9999; position: relative; display: table;}
-header .logo {width: 180px; height: 160px; float: left; background-image: url(../images/logo.png); background-repeat: no-repeat; background-size: 100%;}
+header {width: 100%; height: auto; padding: 10px 0 5px 0; background-color: #282828; z-index: 9999; position: relative; display: table;}
+header .logo {width: 180px; height: 160px; float: left; background-image: url(../imagens/favicon.png); background-repeat: no-repeat; background-size: 100%;}
 
 header .fone {float: right; color: #fff; font-weight: 600; padding-bottom: 30px;letter-spacing: 2px;}
 header .fone span {color: #F6AB4A;}
@@ -11,7 +11,7 @@ header .fone i {padding: 0 10px;}
 
 header .menu {float: right; padding-top: 20px;}
 
-footer {width: 100%; height: auto; display: table; padding-top: 60px; background-color: #0a0707;}
+footer {width: 100%; height: auto; display: table; padding-top: 60px; background-color: #282828;}
 footer .logo {width: 180px; height: 160px; margin: auto; background-image: url(../imagens/favicon.png); background-repeat: no-repeat; background-size: 100%;}
 
 footer .quadro li {width: 33.33%; float: left; }
@@ -65,11 +65,11 @@ footer .fim li {float: left; padding: 0 10px;}
 /*********************************************************/
 .bg-1 {background-color: #FAFAFA; background-size: 100% 100%; }
 
-.botao {padding: 15px 30px; background-color: #f3f64a; color: #fff; font-weight: 600; border-radius: 50px; display: inline-block; cursor: pointer;}
+.botao {padding: 15px 30px; background-color: #F6AB4A; color: #fff; font-weight: 600; border-radius: 50px; display: inline-block; cursor: pointer;}
 .botao:hover {background-color: #0f0b0b;}
 
-.botao-a {padding: 15px 30px; background-color: #f3f64a; color: #fff; font-weight: 600; border-radius: 50px; display: inline-block; cursor: pointer;}
-.botao-a:hover {background-color: #fff; color: #f3f64a !important;}
+.botao-a {padding: 15px 30px; background-color: #F6AB4A; color: #fff; font-weight: 600; border-radius: 50px; display: inline-block; cursor: pointer;}
+.botao-a:hover {background-color: #fff; color: #F6AB4A !important;}
 
 .table {display: table;}
 .txt-r {text-align: right;}
